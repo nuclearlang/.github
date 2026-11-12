@@ -11,6 +11,9 @@ and Python through declarative dialects. **Dragonfly** is its framework: one Nuc
 | [dragonfly-backend](https://github.com/nuclearlang/dragonfly-backend) | backends: dialects `fastapi` (Python) and `nestjs` (TypeScript) |
 | [dragonfly-web](https://github.com/nuclearlang/dragonfly-web) | web apps: dialect `react` |
 | [nuclear-vscode](https://github.com/nuclearlang/nuclear-vscode) · [nuclear-jetbrains](https://github.com/nuclearlang/nuclear-jetbrains) · [nuclear-zed](https://github.com/nuclearlang/nuclear-zed) | editor extensions |
+| [nuclear-graph](https://github.com/nuclearlang/nuclear-graph) | the Nuclear Smart Graph: the private knowledge base (RAG) and the MCP server |
+| [nuclear-developer](https://github.com/nuclearlang/nuclear-developer) | the local 3B agents (coder, tester, security, planner), written in Nuclear |
+| [nuclear-knowledge](https://github.com/nuclearlang/nuclear-knowledge) | the whole knowledge base in one folder, what the agents read |
 | [website](https://github.com/nuclearlang/website) | the documentation site, written in Nuclear |
 
 ```sh
