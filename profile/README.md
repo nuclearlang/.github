@@ -1,24 +1,27 @@
-# NuclearLang
+<div align="center">
 
-A minimal language, made so AI agents and people write only the logic of a program, transpiled to TypeScript, Dart
-and Python through declarative dialects. **Dragonfly** is its framework: one Nuclear codebase for three platforms.
+# ☢ NuclearLang
 
-| Repository | What it is |
+**Write only the logic.** A minimal language made for AI agents and easy for people to read, built to TypeScript,
+Dart and Python by declarative dialects. **Synapsis**, its framework, makes mobile apps, backends and web apps from
+the same Nuclear.
+
+[**nuclearlang.github.io**](https://nuclearlang.github.io) · [the repository](https://github.com/nuclearlang/lang) ·
+[CI](https://github.com/nuclearlang/lang/actions)
+
+[![ci](https://github.com/nuclearlang/lang/actions/workflows/ci.yml/badge.svg)](https://github.com/nuclearlang/lang/actions/workflows/ci.yml)
+[![website](https://github.com/nuclearlang/lang/actions/workflows/website.yml/badge.svg)](https://github.com/nuclearlang/lang/actions/workflows/website.yml)
+
+</div>
+
+| | |
 |---|---|
-| [nuclear](https://github.com/nuclearlang/nuclear) | the language: compiler, `nuclear` CLI, language server, the language dialects, specs |
-| [dragonfly](https://github.com/nuclearlang/dragonfly) | Dragonfly: the `dragonfly` CLI and the platforms' philosophy |
-| [dragonfly-mobile](https://github.com/nuclearlang/dragonfly-mobile) | mobile apps: dialect `flutter` |
-| [dragonfly-backend](https://github.com/nuclearlang/dragonfly-backend) | backends: dialects `fastapi` (Python) and `nestjs` (TypeScript) |
-| [dragonfly-web](https://github.com/nuclearlang/dragonfly-web) | web apps: dialect `react` |
-| [nuclear-vscode](https://github.com/nuclearlang/nuclear-vscode) · [nuclear-jetbrains](https://github.com/nuclearlang/nuclear-jetbrains) · [nuclear-zed](https://github.com/nuclearlang/nuclear-zed) | editor extensions |
-| [nuclear-graph](https://github.com/nuclearlang/nuclear-graph) | the Nuclear Smart Graph: the private knowledge base (RAG) and the MCP server |
-| [nuclear-developer](https://github.com/nuclearlang/nuclear-developer) | the local 3B agents (coder, tester, security, planner), written in Nuclear |
-| [nuclear-knowledge](https://github.com/nuclearlang/nuclear-knowledge) | the whole knowledge base in one folder, what the agents read |
-| [website](https://github.com/nuclearlang/website) | the documentation site, written in Nuclear |
+| [**lang**](https://github.com/nuclearlang/lang) | Everything, in one repository: the language and its compiler, the dialects, Synapsis and its three platforms, the `nuclear` command, the code generator, the MCP server, the editors (VS Code, Cursor, Android Studio, IntelliJ, Zed), the Smart Graph, the local agents, the installers and the website |
+| [nuclearlang.github.io](https://github.com/nuclearlang/nuclearlang.github.io) | Publishes the website from `lang` |
 
 ```sh
 curl -fsSL https://nuclearlang.github.io/install.sh | sh     # Linux, macOS
 irm https://nuclearlang.github.io/install.ps1 | iex          # Windows
 ```
 
-Licensed under Apache-2.0.
+Free and open source, Apache-2.0.
